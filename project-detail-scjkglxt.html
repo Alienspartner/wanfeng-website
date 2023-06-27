@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<title>生产监控管理系统-广州万峰自动化设备有限公司</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+	<link rel="stylesheet" id="bootstrap-css" href="css/bootstrap.css" type="text/css" media="all">
+	<link rel="stylesheet" id="awesome-font-css" href="css/font-awesome.css" type="text/css" media="all">
+	<link rel="stylesheet" id="ionicon-font-css" href="css/ionicon.css" type="text/css" media="all">
+	<link rel="stylesheet" id="slick-slider-css" href="css/slick.css" type="text/css" media="all">
+	<link rel="stylesheet" id="slick-theme-css" href="css/slick-theme.css" type="text/css" media="all">
+	<link rel="stylesheet" id="industris-style-css" href="style.css" type="text/css" media="all">
+
+	<link rel="shortcut icon" href="favicon.png">
+</head>
+
+<body>
+	<div id="page" class="site">
+		<div class="collapse searchbar" id="searchbar">
+	        <div class="search-area">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+	                        <div class="input-group">
+	                            <input type="text" class="form-control" placeholder="Search for..." name="globalSearch">
+	                            <span class="input-group-btn">
+	            					<button class="btn btn-primary" type="button" onclick="globalSearch()">Go!</button>
+	            				</span> 
+	            			</div>
+	                        <!-- /input-group -->
+	                    </div>
+	                    <!-- /.col-lg-6 -->
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <header id="site-header-2" class="site-header-2 header-style-1 md-hidden sm-hidden">
+	    	<div class="container-custom">
+	    		<div class="top-header-2">
+	    			<div class="logo-brand">
+	        			<a href="index.html"><img src="images/logo.png" alt="industris"></a>
+	        		</div>
+	        		<div class="header-info-2">
+	        			<ul>
+	        				
+	                        <li><i class="icon ion-md-pin"></i>广州市花都区汽车城温屋路9号</li>
+	                        <li><i class="icon ion-md-call"></i>+020 3771 3660</li>
+	                        <li><i class="icon ion-md-mail"></i>business@gzwfauto.com</li>
+	                        <li class="topbar-languages"><a href="#">中文</a></li>
+		                    <li class="topbar-languages"><a href="en-waiting.html">English</a></li>
+	                    </ul>
+	        		</div>
+	                <div class="toggle_search topbar-search"><a href="#"><i class="icon ion-md-search"></i></a></div>
+					<div class="header-btn-2"><a href="contact-us.html" class="btn btn-primary">联系我们<i class="icon ion-md-paper-plane"></i></a></div>
+				</div>
+            </div>
+            <div class="navigation-2">
+	        	<div class="container-custom">
+		            <div class="main-navigation navigation-style-2">
+		    			<ul id="primary-menu" class="menu">
+		    				<li class="menu-item"><a href="index.html">主页</a>
+		    				</li>
+		    				<li class="menu-item menu-item-has-children"><a href="about-us.html">关于我们</a>
+		    					<ul class="sub-menu">
+		    						<li class="menu-item"><a href="about-us.html">万峰简介</a></li>
+		    						<li class="menu-item"><a href="history.html">发展历程</a></li>
+		    						<li class="menu-item"><a href="gallery.html">团队展示</a></li>
+		    						<li class="menu-item"><a href="partner-clients.html">合作品牌</a></li>
+		    						<li class="menu-item"><a href="contact-us.html">联系我们</a></li>
+		    					</ul>
+		    				</li>
+		    				<li class="menu-item"><a href="services.html">主营业务</a>
+		    					
+		    				</li>
+		    				<li class="menu-item current-menu-ancestor current-menu-parent"><a href="project.html">项目案例</a>
+		    				</li>
+		    				<li class="menu-item"><a href="news.html">企业动态</a>
+		    				</li>
+		    				<li class="menu-item"><a href="career.html">加入我们</a>
+		    				</li>
+		    			</ul>
+		    		</div>
+		    	</div>
+		    </div>
+	    </header>
+
+	    <header id="site-header" class="site-header header-style-1">
+	        <!-- Mobile header start -->
+	        <div class="mobile-header">
+	        	<div class="container-custom">
+	        		<div class="row">
+	        			<div class="col-xs-6">
+			        		<div class="logo-brand-mobile logo-brand-mobile-2">
+			        			<a href="index.html"><img src="images/logo.png" alt="WANFENG AUTOMATION"></a>
+			        		</div>
+			        	</div>
+	        			<div class="col-xs-6">
+			        		<div id="mmenu_toggle">
+			                    <button></button>
+			                </div>
+			        	</div>
+			        	<div class="col-xs-12">
+			        		<div class="mobile-nav">
+			        			<ul id="primary-menu-mobile" class="mobile-menu">
+			        				<li class="menu-item"><a href="index.html">主页</a>
+			        				</li>
+			        				<li class="menu-item menu-item-has-children"><a href="about-us.html">关于我们</a>
+			        					<ul class="sub-menu">
+			        						<li class="menu-item"><a href="about-us.html">万峰简介</a></li>
+			        						<li class="menu-item"><a href="history.html">发展历程</a></li>
+			        						<li class="menu-item"><a href="gallery.html">团队展示</a></li>
+			        						<li class="menu-item"><a href="partner-clients.html">合作品牌</a></li>
+			        						<li class="menu-item"><a href="contact-us.html">联系我们</a></li>
+			        					</ul>
+			        				</li>
+			        				<li class="menu-item"><a href="services.html">主营业务</a>
+		    					
+		    				        </li>
+			        				<li class="menu-item current-menu-ancestor current-menu-parent"><a href="project.html">项目案例</a>
+			        				</li>
+			        				<li class="menu-item"><a href="news.html">企业动态</a>
+			        				</li>
+			        				<li class="menu-item"><a href="career.html">加入我们</a>
+			        				</li>
+			        			</ul>
+			        		</div>
+			        	</div>
+		        	</div>
+	        	</div>
+	        </div>
+	    </header>
+        <!-- Mobile header start -->
+
+		<div id="content" class="site-content">
+			<div class="page-header" style="background: url('images/subheader-project-detail.jpg') no-repeat center center;">
+			    <div class="container">
+			        <div class="breadc-box no-line">
+			            <div class="row">
+			                <div class="col-md-12">
+			                	<h2 class="text-white">生产监控管理系统</h2>
+			                    <h3 class="text-primary">特点：实时监控工厂生产线,记录设备运行状态,方便及时维护保养</h3>
+			                    
+			                    <!-- <ul id="breadcrumbs" class="breadcrumbs none-style">
+			                        <li><a href="project.html">项目</a></li>
+			                        <li class="active">生产监控管理系统</li>
+			                    </ul> -->
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h3>项目图片</h3>
+							<p class="text-primary">PICTURES</p>
+							<div class="industris-space"></div>
+
+							<div class="project-slider" data-show="1" data-arrow="true">
+
+								<div>
+									<div class="project-box">
+										<img src="images/project/scjkglxt/ps-1.png" alt="" class="">
+									</div>
+								</div>
+
+								<div>
+									<div class="project-box">
+										<img src="images/project/scjkglxt/ps-2.png" alt="" class="">
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+			    </div>
+			</section>
+
+			<section class="no-padding-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h3>项目简介</h3>
+							<p class="text-primary">INTRODUCTION</p>
+							<p>该项目应用于焊装车间生产线的生产信息及设备维护信息的动态监控及管理。</p>
+                            <p>通过对原有设备PLC进行改进，建立现场基础网络，新设中间层的信息收集处理PLC,通过以太网接入工厂局域网进行车间整体的信息汇总管理。</p>
+							<div class="industris-space-30"></div>
+							<h3>系统特点</h3>
+							<p class="text-primary">FEATURE</p>
+							<p>同一生产线设备PLC间通过串口通讯只需追加串口接口。</p>
+							<p>每条产线上设置触屏监控便于车间现场管理及系统操作。</p>
+                            <p>数量庞大的底层网络采用串口通讯能大幅度的降低投入成本。</p>
+                            <p>系统可实现设备各种维护信息管理、当前/历史生产信息管理、品质信息记录、AGV呼叫管理、设备周边辅具操作等。</p>
+                            <div class="industris-space-30"></div>
+							<h3>系统网络结构</h3>
+							<p class="text-primary">NETWORK</p>
+							<img src="images/project/scjkglxt/pd-1.png">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="container">
+					<h3>相关项目</h3>
+					<p class="text-primary">RELATED PROJECT</p>
+					<div class="row">
+						<div class="project-item construction col-lg-4 col-sm-6">
+							            <div class="inner">
+						                    <img src="images/project/pm-8.png" alt=""> 
+							                <div class="project-info">
+							            		<div class="project-meta">China   |   Guangdong Guangzhou</div>
+							            		<div class="project-content">
+								                    <h3><a href="project-detail-l42fhzlcx.html">焊接&搬运系统</a></h3>
+								                    <p>在伺服焊钳上加装抓手，实现工序间转运，减少产线配员。</p>
+					                                <a href="project-detail-l42fhzlcx.html">查看详情 <i class="icon ion-md-add-circle"></i></a>
+					                            </div>
+							                </div>
+							            </div>
+							        </div>
+							        <div class="project-item construction col-lg-4 col-sm-6">
+							            <div class="inner">
+						                    <img src="images/project/pm-9.png" alt=""> 
+							                <div class="project-info">
+							            		<div class="project-meta">China   |   Guangdong Guangzhou</div>
+							            		<div class="project-content">
+								                    <h3><a href="project-detail-cpjdclxt.html">产品精度测量系统</a></h3>
+								                    <p>代替传统检具实现产品的精度检测。</p>
+					                                <a href="project-detail-cpjdclxt.html">查看详情 <i class="icon ion-md-add-circle"></i></a>
+					                            </div>
+							                </div>
+							            </div>
+							        </div>
+							        <div class="project-item construction col-lg-4 col-sm-6">
+							            <div class="inner">
+						                    <img src="images/project/pm-11.png" alt=""> 
+							                <div class="project-info">
+							            		<div class="project-meta">China   |   Guangdong Guangzhou</div>
+							            		<div class="project-content">
+								                    <h3><a href="project-detail-ylcssb.html">压力测试设备</a></h3>
+								                    <p>员工刷卡操作并记录历史数据，从而一步步追溯品质不良的源头。</p>
+					                                <a href="project-detail-ylcssb.html">查看详情 <i class="icon ion-md-add-circle"></i></a>
+					                            </div>
+							                </div>
+							            </div>
+							        </div>
+					          </div>
+				       </div>
+		   	</section>
+
+		</div>
+	    
+
+	    <footer id="site-footer-2" class="site-footer-2">
+	        <div class="main-footer-2">
+	            <div class="container-custom">
+	                <div class="row">
+
+	                    <div class="col-md-4 col-sm-6">
+	                    	<div class="widget-footer">
+		                        <div id="media_image-1" class="widget widget_media_image">
+		                            <a href="index.html"><img src="images/logo.png" alt=""></a>
+		                        </div>
+		                        <div id="custom_html-1" class="widget_text widget widget_custom_html">
+		                            <div class="textwidget custom-html-widget">
+		                                <p>Copyright &copy; 2013 - 2020 Wanfeng. All rights reserved.</p>
+		                                <a href="http://beian.miit.gov.cn">粤ICP备 20050986号</a>
+		                                <img src="images/police.png">
+		                                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011402000474">粤公网安备 44011402000474号</a>
+		                            </div>
+		                        </div>
+		                    </div>
+	                    </div>
+	                    <!-- end col-lg-3 -->
+	                    <div class="col-md-2 col-sm-6">
+	                    	<div class="widget-footer">
+		                        <div id="custom_html-3" class="widget_text widge widget-footer widget_custom_html padding-left">
+		                            <div class="textwidget custom-html-widget">
+		                                <ul>
+		                                    <li><a href="about-us.html">企业简介</a></li>
+		                                    <li><a href="services.html">主营业务</a></li>
+		                                    <li><a href="project.html">项目案例</a></li>
+		                                    <li><a href="contact-us.html">联系我们</a></li>
+		                                    <li><a href="career.html">加入我们</a></li>
+		                                </ul>
+		                            </div>
+		                        </div>
+		                    </div>
+	                    </div>
+
+	                    <div class="col-md-3 col-sm-6">
+	                    	<div class="widget-footer">
+		                        <div id="custom_html-2" class="widget_text widget widget_custom_html padding-left">
+		                            <div class="textwidget custom-html-widget">
+		                                <ul>
+                                            <li><a href="project-detail-hzlqzdscx.html">智能工厂</a></li>
+                                            <li><a href="project-detail-cpjdclxt.html">检测设备</a></li>
+                                            <li><a href="project-detail-sfzddhsb.html">点焊设备</a></li>
+                                            <li><a href="project-detail-ptcp.html">配套产品</a></li>
+                                            <li><a href="project-detail-wljsrq.html">金属容器</a></li>
+                                        </ul>
+		                            </div>
+		                        </div>
+	                        </div>
+	                    </div>
+	                    <!-- end col-lg-3 -->
+
+	                    <div class="col-md-3 col-sm-6">
+	                    	<div class="widget-footer">
+		                        <div id="mc4wp_form_widget-1" class="widget widget_mc4wp_form_widget">
+		                            <!-- Mailchimp for WordPress v4.5.2 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
+		                            <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-1696" method="post" data-id="1696" data-name="Industris Subscribe">
+	                                    <div class="input-group">
+	                                        <input type="email" name="EMAIL" class="form-control" placeholder="Email Address" required="">
+	                                        <span class="input-group-btn">
+	                                        	<button type="submit" class="btn btn-subcribe" onclick="submitMail()"><i class="icon ion-md-checkmark"></i></button>
+	                                        </span>
+	                                    </div>
+		                                <input type="hidden" name="_mc4wp_timestamp" value="1560227031">
+		                                <input type="hidden" name="_mc4wp_form_id" value="1696">
+		                                <input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1">
+		                                <div class="mc4wp-response"></div>
+		                            </form>
+		                        </div>
+	                            <!-- / Mailchimp for WordPress Plugin -->
+
+	                            <div class="footer-social ot-socials bg-white">
+	                            	contact us:
+	                                <a target="_blank" href="contact-us.html" rel="noopener noreferrer"><i class="icon ion-logo-facebook"></i></a>
+	                                <a target="_blank" href="contact-us.html" rel="noopener noreferrer"><i class="icon ion-logo-instagram"></i></a>
+	                                <a target="_blank" href="contact-us.html" rel="noopener noreferrer"><i class="icon ion-logo-skype"></i></a>
+	                                <a target="_blank" href="contact-us.html" rel="noopener noreferrer"><i class="icon ion-logo-twitter"></i></a>
+	                                <a target="_blank" href="contact-us.html" rel="noopener noreferrer"><i class="icon ion-logo-youtube"></i></a>
+	                            </div>
+	                        </div>
+	                    </div>
+	                    <!-- end col-lg-3 -->
+
+	                </div>
+	            </div>
+	        </div>
+	        <!-- .main-footer -->
+	        <div class="footer-bottom">
+	            <div class="container-custom">
+	            	<div class="row">
+	            		<div class="col-md-12">
+		                    <ul class="topbar-left">
+		                        <li><i class="icon ion-md-pin"></i>广州市花都区汽车城温屋路9号</li>
+		                        <li><i class="icon ion-md-call"></i>+020 3771 3660</li>
+		                        <li><i class="icon ion-md-mail"></i>business@gzwfauto.com</li>
+		                    </ul>
+			        		<a id="back-to-top" href="#" class="btn btn-back-to-top show pull-right">Back to top<i class="icon ion-ios-arrow-dropup-circle"></i></a>
+			        	</div>
+			        </div>
+	            </div>
+	        </div>
+	        <!-- .copyright-footer -->
+	    </footer>
+	</div>
+    <script type="text/javascript" src="js/search.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/countto.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
